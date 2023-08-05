@@ -34,7 +34,8 @@ SECRET_KEY = 'django-insecure-6wb#ip0z2!i%o*pqxqwu4wmwrn)l_y!dnzo_k=#f*@%ttv2e!o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-patchamama-drfapi-0v4grsh1p1f.ws-eu102.gitpod.io']
+ALLOWED_HOSTS = ['8000-patchamama-drfapi-s3y1oyet2q3.ws-eu102.gitpod.io']
+
 
 # Application definition
 
@@ -50,6 +51,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'profiles',
+    'posts',
 ]
 
 MIDDLEWARE = [
